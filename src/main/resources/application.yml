@@ -1,0 +1,12 @@
+spring:
+  web:
+    resources:
+      static-locations: classpath:/static/, classpath:/templates
+server:
+  port: 8000
+
+# 完整版配置，此简易版不需要
+chat-gpt:
+  apiKey: sk-*******************************
+  apiHost: https://api.openai.com/
+
